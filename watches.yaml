@@ -1,0 +1,11 @@
+---
+# Use the 'create api' subcommand to add watches to this file.
+- version: v1alpha1
+  group: cache.innovativity.net
+  kind: Memcached
+  role: memcached
+- version: v1alpha1
+  group: cache.innovativity.net
+  kind: Redis
+  role: redis
+#+kubebuilder:scaffold:watch
